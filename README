@@ -3,3 +3,8 @@ what's a key-value store?
 
 Features:
 - Venom is designed to be idempotent by default, allowing you to perfrom the same operation multiple times without changing the result beyond the initial application.
+
+Future Plans:
+
+- use GraphQL to allow clients to query the server for specific data.
+- implement remote procedure calls (RPCs) to allow clients to execute functions on the server.
