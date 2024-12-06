@@ -1,12 +1,10 @@
-
 project_name: venom
 release:
   github:
-    owner: your-github-username
+    owner: devhindo
     name: venom
 builds:
-  - main: ./core.go
-    goos:
+  - goos:
       - linux
       - windows
       - darwin
