@@ -1,0 +1,5 @@
+what's a key-value store?
+- it's a kind of nonrelational database that stores data as a collection of key-value pairs. they're different from the better-known relational databases, like Miscrosoft SQL Server or PostgresSQL. Where relational databases structure their data among fixed tables with well-defined data types, key-value stores are far simpler, allowing users to associate a unique identifier (the key) with an arbitrary value. 
+
+Features:
+- Venom is designed to be idempotent by default, allowing you to perfrom the same operation multiple times without changing the result beyond the initial application.
