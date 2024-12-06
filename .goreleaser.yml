@@ -1,0 +1,20 @@
+
+project_name: venom
+release:
+  github:
+    owner: your-github-username
+    name: venom
+builds:
+  - main: ./core.go
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+archives:
+  - format: tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+checksum:
+  name_template: "{{ .ProjectName }}_{{ .Version }}_checksums.txt"
